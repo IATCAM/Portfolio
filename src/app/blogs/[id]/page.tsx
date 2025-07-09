@@ -10,23 +10,36 @@ async function ArticleItems({ params }: IarticleProps) {
   // const result = await fetch(`http://localhost:8000/articles/${id}`);
   // const data = (await result.json()) as Iarticle;
 
-   const { data, error } = await supabase
-    .from<Iarticle>('articles')
-    .select('*')
-    .eq('id', id)
-    .single();
+  //  const { data, error } = await supabase
+  //   .from<Iarticle>('articles')
+  //   .select('*')
+  //   .eq('id', id)
+  //   .single();
 
-  if (error) {
-    console.error('Error fetching article:', error);
-    return <div>Error loading article.</div>;
-  }
+  // if (error) {
+  //   console.error('Error fetching article:', error);
+  //   return <div>Error loading article.</div>;
+  // }
+
+  const { data, error } = await supabase
+  .from("articles")
+  .select("*")
+  .eq("id", id)
+  .single();
+
+if (error) {
+  console.error("Error fetching article:", error);
+  return <div>Error loading article.</div>;
+}
+
+const article: Iarticle | null = data;
 
 
   return (
     <div className="bg-bg1 px-6 xl:px-[16rem]">
       <div className="pt-16  ">
         <h1 className="H2-U text-brand1 pb-8 px-2.5">
-          {data.title}
+          {article?.title}
         </h1>
         <hr className="text-grey px-6" />
         <div className="flex items-center justify-center gap-6 text-white Label-U-M my-4 Label-U-M">
@@ -40,7 +53,7 @@ async function ArticleItems({ params }: IarticleProps) {
       <div className="mt-8 flex flex-col justify-center items-center">
         <img className="w-80 h-74" src="/assets/images/blogsImg.jpg" alt="" />
         <p className="text-white Article-U my-8">
-          {data.content}
+          {article?.content}
         </p>
       </div>
 

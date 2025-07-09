@@ -36,7 +36,7 @@ function About() {
               I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving.
             </p>
             <p className="Para-M  text-white pb-3 xl:pb-0">
-              When I'm not coding, I am <span className="text-brand1">writing bolgs</span>, reading, or picking up some new hands-on art project like <span className="text-brand1">photography</span>.
+              When Im not coding, I am <span className="text-brand1">writing bolgs</span>, reading, or picking up some new hands-on art project like <span className="text-brand1">photography</span>.
             </p>
             <p className="Para-M  text-white">
               I like to have my perspective and belief systems challenged so that I see the world through new eyes.

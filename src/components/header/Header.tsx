@@ -35,14 +35,14 @@ function Header() {
             <h5 className="pl-6 Para-M text-white my-4 xl:hidden IBM">
               <p>I help business grow by</p>
               <p>crafting amazing web </p>
-              <p>experiences. If you’re </p>
+              <p>experiences. If youre </p>
               <p>looking for a developer that </p>
               <p>likes to get stuff done,</p>
             </h5>
             <h5 className="pl-6 Para-M text-white tracking-widest my-4 hidden xl:flex flex-col">
               <p>
                 I help business grow by crafting amazing web experiences. If
-                you’re{" "}
+                youre{" "}
               </p>
               <p>looking for a developer that likes to get stuff done,</p>
             </h5>
@@ -50,7 +50,7 @@ function Header() {
           </div>
 
           <div className="flex items-center justify-center xl:justify-start mt-4 xl:pl-6">
-            <h1 className="H2-M text-brand1 mr-4 IBM">Let’s Talk</h1>
+            <h1 className="H2-M text-brand1 mr-4 IBM">Lets Talk</h1>
             <span className="bg-grey p-2 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ function Header() {
           </div>
 
           <div className="flex items-center">
-            <h1 className="Number-M text-brand1 mr-4">4</h1>
+            <h1 className="Number-M text-brand1 mr-4">1</h1>
             <h2 className="Para-M text-white">Years of Experience</h2>
           </div>
         </div>
