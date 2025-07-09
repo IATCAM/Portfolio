@@ -17,7 +17,7 @@ function Header() {
             <h1 className="pl-4 H2-U H1-U text-white flex flex-col xl:gap-11 xl:mt-4">
               <p>Hey</p>
               <p>
-                I'm <span className="text-brand1">Sajjad</span>,
+                Im <span className="text-brand1">Sajjad</span>,
               </p>
               <p className="hidden xl:block">
                 Front-End Developer
