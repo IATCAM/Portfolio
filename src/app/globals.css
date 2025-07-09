@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+body{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+:root {
+  --font-IBMPlexMono: "IBM Plex Mono", monospace;
+  --font-ubuntu-sans: "Ubuntu", sans-serif;
+}
+
+.IBM {
+  font-family: var(--font-IBMPlexMono);
+}
+
+.ubuntu {
+  font-family: var(--font-ubuntu-sans);
+}
+
+
+
+@theme {
+  --color-bg1: #292F36;
+  --color-bg2: #1A1E23;
+  --color-brand1: #12F7D6;
+  --color-brand2: #98FAEC;
+  --color-grey: #43454D;
+  --color-html: #E54F26;
+  --color-css: #0C73B8;
+  --color-js: #E7A020;
+  --color-react: #28A9E0;
+
+  --breakpoint-3xl: 104rem;
+  --breakpoint-xs: 24.37rem;
+  
+}
+
+
+.btn-s-1{
+  @apply bg-brand1 px-8 py-4 rounded-4xl;
+}
+
+.btn-s-2{
+  @apply bg-white px-8 py-4 rounded-4xl;
+}
+
+.btn-s-3{
+  @apply bg-[#292F36] px-8 py-4 rounded-4xl border-2 border-[#12F7D6] text-white;
+}
+
+.BG-text-U{
+  @apply text-[7.31rem] leading-[8.37rem];
+}
+
+.H2-U{
+  @apply text-[2rem] leading-[2.25rem] font-normal
+}
+
+.Button-U{
+  @apply text-xl leading-6;
+}
+ 
+.Article-U{
+  @apply text-base leading-8 font-light;
+}
+
+.Para-U{
+  @apply text-base leading-[1.12rem] font-light;
+}
+
+.Label-U-M{
+  @apply text-sm leading-4 font-medium;
+}
+
+.Label-U-L{
+  @apply text-sm leading-4 font-light;
+}
+
+
+.Number-M{
+  @apply text-5xl leading-[3.87rem] font-medium;
+}
+
+.H2-M{
+  @apply text-[2rem] leading-[2.62rem] font-medium; 
+}
+
+.Media-M{
+  @apply text-base leading-5;
+}
+
+.Para-M{
+  @apply text-base leading-5;
+}
+
+.Code-M{
+  @apply text-sm leading-[1.12rem];
+}
+
+.Logo-MM{
+  @apply text-[2rem] leading-[2.62rem] font-medium;
+}
+
+ .H1-UU{
+  @apply text-[4rem] leading-9;
+}
+
+  .Menu-MM{
+  @apply text-2xl leading-[2rem];
+}
+
+
+@variant xl{
+  .Logo-M{
+  @apply text-[2rem] leading-[2.62rem] font-medium;
+}
+}
+
+@variant xl{
+  .Menu-M{
+  @apply text-2xl leading-[2rem];
+}
+}
+
+@variant xl{
+  .H1-U{
+  @apply text-[4rem] leading-9;
+}
+}
+
+
+
+
+
+.card-border-shadow{
+  border-radius: 10rem 0rem;
+  box-shadow: -4px -4px 2px 0px #12F7D6;
+}
+
+
+.about-radius{
+  border-radius: 2.5rem 0rem; 
+}
+
+
+.contact-radius{
+  border-radius: 2rem  0rem;
+}
