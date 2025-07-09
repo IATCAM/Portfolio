@@ -14,9 +14,14 @@ export interface Iarticle {
   content: string
 }
 
-export interface IarticleProps{
-  params: Promise<{id: number | string}>;
-  searchParams: Promise<{}>
+// export interface IarticleProps{
+//   params: Promise<{id: number | string}>;
+//   searchParams: Promise<{}>
+// }
+
+export interface IarticleProps {
+  params: { id: number | string };
+  searchParams?: { [key: string]: string | string[] };
 }
 
 

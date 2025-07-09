@@ -1,9 +1,9 @@
 
-import { Iarticle, IarticleProps } from "@/components/blog/Blog";
+import { Iarticle } from "@/components/blog/Blog";
 import { supabase } from "@/lib/supabaseClient";
 
 
-async function ArticleItems({ params }: IarticleProps) {
+async function ArticleItems({ params }: { params: Promise<{ id: string }> }) {
 
   const { id } = await params;
 
