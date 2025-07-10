@@ -91,7 +91,7 @@ function Footer() {
         </ul>
 
         <div className="flex flex-col justify-center items-center mt-6 xl:flex-row xl:gap-10 xl:mt-0">
-            <h2 className="Para-U text-white">© 2023 SinanTokmak. All rights reserved.</h2>
+            <h2 className="Para-U text-white">© 2023 Sajjad Askari. All rights reserved.</h2>
             <h2 className="Para-U text-white my-6">Privacy Policy <span className="ml-8">Terms & Conditions</span></h2>
             <h2 className="Para-U text-white">Design By <span className="text-brand1">JohannLeon</span></h2>
         </div>
