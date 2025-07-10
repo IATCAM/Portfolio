@@ -9,7 +9,7 @@ function Article({title , decription}: Iarticle) {
         <div className="col-span-2 ">
           <img
             className="w-30 h-30 mx-auto xl:mx-0 xl:w-60 xl:h-60 xl:ml-10"
-            src="/assets/images/blogsImg.jpg"
+            src="https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//blogsImg.jpg"
             alt=""
           />
         </div>

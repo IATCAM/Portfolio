@@ -12,7 +12,7 @@ function Blogs() {
 
              <div className="mx-12 xl:mx-36 xl:flex xl:items-center xl:gap-16">
                 <div>
-                    <img className="w-30 h-30 mx-auto mt-8 xl:w-75 xl:h-60 " src="/assets/images/blogsImg.jpg" alt="" />
+                    <img className="w-30 h-30 mx-auto mt-8 xl:w-75 xl:h-60 " src="https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//blogsImg.jpg" alt="" />
                 </div>
 
                 <div className="xl:flex xl:flex-col">

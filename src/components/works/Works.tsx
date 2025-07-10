@@ -3,7 +3,7 @@ import NavigationBar from "../navigationBar/NavigationBar";
 
 function Works() {
 
-    const background = "../../assets/images/bgWorks.png";
+    const background = "https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//bgWorks.png";
 
   return (
     <div className='relative' id="Works">
@@ -15,11 +15,11 @@ function Works() {
 
                 <div className="relative flex justify-center items-center mt-20 pb-16 xl:mt-[13rem] xl:pb-32">
                     <div className="">
-                        <img className="w-[18.59rem] h-[12.37rem] xl:w-[40.56rem] xl:h-[27rem] " src="/assets/images/dualscreen.png" alt="" />
+                        <img className="w-[18.59rem] h-[12.37rem] xl:w-[40.56rem] xl:h-[27rem] " src="https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//dualscreen.png" alt="" />
                     </div>
                     <div>
-                        <img className="w-[6.07rem] h-[7.96rem] absolute left-[5.72rem] top-[1.6rem] xl:w-[13.25rem] xl:h-[17.37rem] xl:top-[3.5rem] xl:left-[30.67rem]  " src="/assets/images/desk1.jpg" alt="" />
-                        <img className="w-[8.50rem] h-[4.89rem] absolute left-[12.79rem] top-[3.78rem] xl:w-[18.56rem] xl:h-[10.68rem] xl:top-[8.25rem] xl:left-[46.20rem]  " src="/assets/images/desk2.png" alt="" />
+                        <img className="w-[6.07rem] h-[7.96rem] absolute left-[5.72rem] top-[1.6rem] xl:w-[13.25rem] xl:h-[17.37rem] xl:top-[3.5rem] xl:left-[30.67rem]  " src="https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//desk1.jpg" alt="" />
+                        <img className="w-[8.50rem] h-[4.89rem] absolute left-[12.79rem] top-[3.78rem] xl:w-[18.56rem] xl:h-[10.68rem] xl:top-[8.25rem] xl:left-[46.20rem]  " src="https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//desk2.png" alt="" />
                     </div>
                     
                     <div>

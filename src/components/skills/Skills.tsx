@@ -3,7 +3,7 @@ import NavigationBar from "../navigationBar/NavigationBar";
 
 function Skills() {
 
-    const background = "../../assets/images/bgSkill.png";
+    const background = "https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//bgSkill.png";
 
   return (
     <div className="relative " id="Skills">

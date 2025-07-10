@@ -2,7 +2,7 @@
 
 function About() {
 
-    const background = "../../assets/images/bg1.png";
+    const background = "https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//bg1.png";
 
   return (
     <div className="relative" id="AboutMe">
@@ -46,7 +46,7 @@ function About() {
         </div>
 
         <div className="py-16 xl:py-32">
-          <img className="w-[17rem] h-[22.75rem] xl:w-[28.87rem] xl:h-[34.75rem] mx-auto rounded-2xl" src="assets/images/aboutPic.jpg" alt="" />
+          <img className="w-[17rem] h-[22.75rem] xl:w-[28.87rem] xl:h-[34.75rem] mx-auto rounded-2xl" src="https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//aboutPic.jpg" alt="" />
         </div>
 
       </div>

@@ -4,7 +4,7 @@ function Specifications() {
   return (
     <div className="w-80 h-130 p-6 gap-8 border-4 border-white flex flex-col items-start mx-auto my-16 card-border-shadow IBM">
         <div className="flex flex-col items-center mx-auto ">
-            <img className=" w-24 h-24 rounded-full border-3 border-brand1" src="assets/images/cardImage.png" alt="" />
+            <img className=" w-24 h-24 rounded-full border-3 border-brand1" src="https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//cardImage.png" alt="" />
             <h3 className="Logo-MM text-white mt-4">Sajjad</h3>
             <h5 className="Code-M text-white">Front-end developer</h5>
         </div>
