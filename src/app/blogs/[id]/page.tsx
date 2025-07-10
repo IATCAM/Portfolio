@@ -51,7 +51,7 @@ const article: Iarticle | null = data;
       </div>
 
       <div className="mt-8 flex flex-col justify-center items-center">
-        <img className="w-80 h-74" src="/assets/images/blogsImg.jpg" alt="" />
+        <img className="w-80 h-74" src={article?.image} alt="" />
         <p className="text-white Article-U my-8">
           {article?.content}
         </p>
