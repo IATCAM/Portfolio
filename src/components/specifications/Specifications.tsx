@@ -6,7 +6,7 @@ function Specifications() {
         <div className="flex flex-col items-center mx-auto ">
             <img className=" w-24 h-24 rounded-full border-3 border-brand1" src="https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//cardImage.png" alt="" />
             <h3 className="Logo-MM text-white mt-4">Sajjad</h3>
-            <h5 className="Code-M text-white">Front-end developer</h5>
+            <h5 className="Code-M text-white">Front-End Developer</h5>
         </div>
 
         <div className="w-[17rem] h-[9.63rem] Code-M">
@@ -17,7 +17,7 @@ function Specifications() {
                             <path  fillRule="evenodd" clipRule="evenodd" d="M0.583331 3.48988C0.583236 3.49564 0.583227 3.50139 0.583302 3.50715V10.5C0.583302 11.4638 1.36947 12.25 2.3333 12.25H11.6666C12.6305 12.25 13.4166 11.4638 13.4166 10.5V3.50721C13.4167 3.50141 13.4167 3.4956 13.4166 3.4898C13.4111 2.53063 12.6271 1.75 11.6666 1.75H2.3333C1.37284 1.75 0.588809 2.53067 0.583331 3.48988ZM1.81214 3.2398C1.90861 3.04904 2.10699 2.91667 2.3333 2.91667H11.6666C11.8929 2.91667 12.0913 3.04904 12.1878 3.2398L6.99997 6.87128L1.81214 3.2398ZM12.25 4.62038V10.5C12.25 10.8195 11.9861 11.0833 11.6666 11.0833H2.3333C2.0138 11.0833 1.74997 10.8195 1.74997 10.5V4.62038L6.66545 8.06122C6.8663 8.20182 7.13363 8.20182 7.33449 8.06122L12.25 4.62038Z" fill="#12F7D6"/>
                         </svg>
                     </span>
-                    askari.sajjad.1993@gmail.com
+                    sajjadaskaridev@gmail.com
                 </h6>
                 <h6 className="flex items-center gap-4 my-4">
                     <span>
@@ -54,10 +54,10 @@ function Specifications() {
                 </h6>
             </div>
             <div className="flex gap-4 mt-4 text-bg1">
-                <button className="bg-brand1 rounded-lg px-2 Code-M">HTML</button>
-                <button className="bg-brand1 rounded-lg px-2 Code-M">CSS</button>
-                <button className="bg-brand1 rounded-lg px-2 Code-M">JS</button>
+                <button className="bg-brand1 rounded-lg px-2 Code-M">NEXT</button>
                 <button className="bg-brand1 rounded-lg px-2 Code-M">REACT</button>
+                <button className="bg-brand1 rounded-lg px-2 Code-M">JS</button>
+                <button className="bg-brand1 rounded-lg px-2 Code-M">TS</button>
             </div>
         </div>
 

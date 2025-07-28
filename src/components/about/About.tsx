@@ -2,7 +2,7 @@
 
 function About() {
 
-    const background = "https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//bg1.png";
+  const background = "https://umpxyqynyvkgcsphpthq.supabase.co/storage/v1/object/public/articles-image//bg1.png";
 
   return (
     <div className="relative" id="AboutMe">
@@ -22,7 +22,7 @@ function About() {
         </div>
         
         <div className="mx-auto w-56 h-[4.25rem] xl:w-[22.93rem] xl:h-26 about-radius border-brand1 border-4 xl:my-16 xl:ml-50">
-          <h1 className="py-4 px-9 H2-U H1-U text-white">About Me</h1>
+          <h1 className="py-4 xl:pt-7 px-9 H2-U H1-U text-white  text-center">About Me</h1>
         </div>
 
         <div className="w-[21.5rem] h-[36.06rem] xl:w-[55rem] xl:h-[19.56rem] bg-bg1 rounded-[2.5rem] mx-auto mt-8 p-6 xl:py-4 xl:px-10 IBM">
@@ -30,13 +30,13 @@ function About() {
           <h1 className="my-4 leading-[1.25rem]">
             <p className="Logo-MM text-brand1 pb-4 xl:pb-0">Hello!</p>
             <p className="Para-M  text-white">
-              My name is Sajjad and I specialize in web developement that utilizes <span className="text-brand1">HTML</span>, <span className="text-brand1">CSS</span>, <span className="text-brand1">JS</span>, and <span className="text-brand1">REACT</span> etc.
+              My name is Sajjad and I specialize in web developement that utilizes <span className="text-brand1">NEXT</span>, <span className="text-brand1">REACT</span>, <span className="text-brand1">JS</span>, and <span className="text-brand1">TS</span> etc.
             </p>
             <p className="Para-M  text-white py-3 xl:py-0">
               I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving.
             </p>
             <p className="Para-M  text-white pb-3 xl:pb-0">
-              When Im not coding, I am <span className="text-brand1">writing bolgs</span>, reading, or picking up some new hands-on art project like <span className="text-brand1">photography</span>.
+              When Im not coding, I dedicate my time to researching emerging <span className="text-brand1">technologies</span> and watching programming-related videos to stay informed and continuously improve my <span className="text-brand1">skills</span>.
             </p>
             <p className="Para-M  text-white">
               I like to have my perspective and belief systems challenged so that I see the world through new eyes.

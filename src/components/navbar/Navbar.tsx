@@ -97,7 +97,7 @@ function Navbar() {
 
         <div>
             <h1 className="flex items-center gap-2 text-brand1 Media-M Logo-M">
-                &lt;C/&gt; <span className="text-white ">SajjadAskari</span>
+                &lt;S/&gt; <span className="text-white ">SajjadAskari</span>
             </h1>
         </div>
 
