@@ -97,7 +97,7 @@ function Contact() {
     <div className="bg-bg2 pb-16" id="Contact">
       <NavigationBar
         title="Contact"
-        description="I’m currently available for freelance work"
+        description="Im currently available for freelance work"
         icon={
           <svg
             xmlns="http://www.w3.org/2000/svg"
