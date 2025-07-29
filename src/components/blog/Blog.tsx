@@ -11,7 +11,9 @@ export interface Iarticle {
   title: string;
   decription: string;
   image: string;
-  content: string
+  content: string;
+  date: string;
+  readTime: number
 }
 
 // export interface IarticleProps{

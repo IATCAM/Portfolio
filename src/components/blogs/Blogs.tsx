@@ -1,7 +1,15 @@
+"use client"
+
+import Link from "next/link";
 import NavigationBar from "../navigationBar/NavigationBar";
 
 
 function Blogs() {
+
+    const handleSubscribe = ()=>{
+        alert("Thanks for subscribe")
+    }
+    
   return (
     <div className="bg-bg1" id="Blogs">
       <NavigationBar title="Blogs" description="My thoughts on technology and business, welcome to subscribe" icon={<svg xmlns="http://www.w3.org/2000/svg" width="174" height="12" viewBox="0 0 174 12" fill="none">
@@ -28,9 +36,9 @@ function Blogs() {
                         <p className="Label-U-L text-white bg-grey inline-block py-1 px-2 rounded-2xl mt-6 xl:mr-6">Web Developer</p>
 
                         <div className="flex items-center gap-2 xl:gap-6 text-white Label-U-M mt-4">
-                            <h3>Text Sajjad</h3>
-                            <h3>Date 8.June 2025</h3>
-                            <h3>Read 1 Min</h3>
+                            <h3>Text: Sajjad</h3>
+                            <h3>Date: 8.June 2025</h3>
+                            <h3>Read: 1 Min</h3>
                         </div>
                     </div>
                 </div>
@@ -39,8 +47,10 @@ function Blogs() {
              <hr className="w-auto h-[0.0625rem] text-white mx-4 xl:mx-28 mb-16 mt-8 xl:mt-16 " />
 
              <div className="flex gap-8 items-center justify-center pb-16 xl:mt-16 xl:pb-[6.25rem]">
-                <button className="py-4 px-8 bg-brand1 rounded-4xl Button-U text-bg1">View More</button>
-                <button className="py-4 px-8 rounded-4xl border-2 border-brand1 text-white Button-U">Subscribe</button>
+                <button className="py-4 px-8 bg-brand1 rounded-4xl Button-U text-bg1">
+                    <Link href="/blogs">View More</Link>
+                </button>
+                <button className="py-4 px-8 rounded-4xl border-2 border-brand1 text-white Button-U cursor-pointer" onClick={handleSubscribe}>Subscribe</button>
              </div>
     </div>
   )

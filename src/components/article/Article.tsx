@@ -2,7 +2,7 @@ import { Iarticle } from "../blog/Blog";
 
 
 
-function Article({title , decription}: Iarticle) {
+function Article({title , decription , date , readTime}: Iarticle) {
   return (
     <div>
       <div className="mx-12 xl:mx-32 xl:grid xl:grid-cols-6 pt-16">
@@ -32,13 +32,13 @@ function Article({title , decription}: Iarticle) {
 
             <div className="flex items-center gap-2 xl:gap-6 text-white Label-U-M mt-4">
               <h3>
-                Text <span className="Label-U-L ml-2">Sajjad</span>
+                Text: <span className="Label-U-L ml-2">Sajjad</span>
               </h3>
               <h3>
-                Date <span className="Label-U-L ml-2">8.June 2025</span>
+                Date: <span className="Label-U-L ml-2">{date}</span>
               </h3>
               <h3>
-                Read <span className="Label-U-L ml-2">1 Min</span>
+                Read: <span className="Label-U-L ml-2">{readTime} Min</span>
               </h3>
             </div>
           </div>

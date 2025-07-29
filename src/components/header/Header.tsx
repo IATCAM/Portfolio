@@ -50,7 +50,7 @@ function Header() {
           </div>
 
           <div className="flex items-center justify-center xl:justify-start mt-4 xl:pl-6">
-            <h1 className="H2-M text-brand1 mr-4 IBM">Lets Talk</h1>
+            <a className="H2-M text-brand1 mr-4 IBM" href="mailto:sajjadaskaridev@gmail.com">Lets Talk</a>
             <span className="bg-grey p-2 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -72,12 +72,12 @@ function Header() {
 
         <div className="w-[13.43rem] h-[23.62rem] rounded-[5rem] bg-bg2 flex flex-col py-12 px-8 gap-12 mt-16 xl:my-4 mx-auto xl:mx-0 IBM">
           <div className="flex items-center">
-            <h1 className="Number-M text-brand1 mr-4">4</h1>
+            <h1 className="Number-M text-brand1 mr-4">2</h1>
             <h2 className="Para-M text-white">Programming Language</h2>
           </div>
 
           <div className="flex items-center">
-            <h1 className="Number-M text-brand1 mr-4">6</h1>
+            <h1 className="Number-M text-brand1 mr-4">8</h1>
             <h2 className="Para-M text-white">Development Tools</h2>
           </div>
 

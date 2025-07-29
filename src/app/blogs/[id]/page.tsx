@@ -43,9 +43,9 @@ const article: Iarticle | null = data;
         </h1>
         <hr className="text-grey px-6" />
         <div className="flex items-center justify-center gap-6 text-white Label-U-M my-4 Label-U-M">
-          <h3>Text <span className="ml-2 Label-U-L ">Sajjad</span></h3>
-          <h3>Date <span className="ml-2 Label-U-L ">8.June 2025</span></h3>
-          <h3>Read <span className="ml-2 Label-U-L ">1 Min</span></h3>
+          <h3>Text: <span className="ml-2 Label-U-L ">Sajjad</span></h3>
+          <h3>Date: <span className="ml-2 Label-U-L ">{article?.date}</span></h3>
+          <h3>Read: <span className="ml-2 Label-U-L ">{article?.readTime} Min</span></h3>
         </div>
         <hr className="text-grey px-6" />
       </div>
@@ -66,9 +66,9 @@ const article: Iarticle | null = data;
       <div className="pt-8">
         <hr className="text-grey px-6" />
         <div className="flex items-center justify-center gap-6 text-white Label-U-M my-4 Label-U-M">
-          <h3>Text <span className="ml-2 Label-U-L ">Sajjad</span></h3>
-          <h3>Date <span className="ml-2 Label-U-L ">8.June 2025</span></h3>
-          <h3>Read <span className="ml-2 Label-U-L ">1 Min</span></h3>
+          <h3>Text: <span className="ml-2 Label-U-L ">Sajjad</span></h3>
+          <h3>Date: <span className="ml-2 Label-U-L ">{article?.date}</span></h3>
+          <h3>Read: <span className="ml-2 Label-U-L ">{article?.readTime} Min</span></h3>
         </div>
         <hr className="text-grey px-6" />
       </div>

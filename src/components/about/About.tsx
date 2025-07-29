@@ -25,12 +25,12 @@ function About() {
           <h1 className="py-4 xl:pt-7 px-9 H2-U H1-U text-white  text-center">About Me</h1>
         </div>
 
-        <div className="w-[21.5rem] h-[36.06rem] xl:w-[55rem] xl:h-[19.56rem] bg-bg1 rounded-[2.5rem] mx-auto mt-8 p-6 xl:py-4 xl:px-10 IBM">
+        <div className="w-[21.5rem] h-[40.06rem] xl:w-[55rem] xl:h-[21rem] bg-bg1 rounded-[2.5rem] mx-auto mt-8 p-6 xl:py-4 xl:px-10 IBM">
           <span className="Code-M text-brand2">&lt;p&gt;</span>
           <h1 className="my-4 leading-[1.25rem]">
             <p className="Logo-MM text-brand1 pb-4 xl:pb-0">Hello!</p>
             <p className="Para-M  text-white">
-              My name is Sajjad and I specialize in web developement that utilizes <span className="text-brand1">NEXT</span>, <span className="text-brand1">REACT</span>, <span className="text-brand1">JS</span>, and <span className="text-brand1">TS</span> etc.
+              My name is Sajjad and I specialize in web developement that utilizes <span className="text-brand1">NEXT</span>, <span className="text-brand1">REACT</span>, <span className="text-brand1">JavaScript</span>, and <span className="text-brand1">TypeScript</span> etc.
             </p>
             <p className="Para-M  text-white py-3 xl:py-0">
               I am a highly motivated individual and eternal optimist dedicated to writing clear, concise, robust code that works. Striving to never stop learning and improving.

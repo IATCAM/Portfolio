@@ -24,7 +24,7 @@ function Skills() {
                     <p className="  text-grey IBM">NEXT·REACT.JS.TS</p>
                 </div>
 
-                <div className="w-72 h-33 rounded-lg bg-brand2 px-6 py-4 border-l-8 border-l-[#0C73B8] flex flex-col items-center gap-2">
+                {/* <div className="w-72 h-33 rounded-lg bg-brand2 px-6 py-4 border-l-8 border-l-[#0C73B8] flex flex-col items-center gap-2">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                             <path d="M16.0002 22.6666C15.2638 22.6666 14.6668 23.2635 14.6668 23.9999C14.6668 24.7363 15.2638 25.3333 16.0002 25.3333H16.0135C16.7499 25.3333 17.3468 24.7363 17.3468 23.9999C17.3468 23.2635 16.7499 22.6666 16.0135 22.6666H16.0002Z" fill="#292F36"/>
@@ -33,7 +33,7 @@ function Skills() {
                     </span>
                     <h1 className="Menu-MM text-bg1 IBM">App Developement</h1>
                     <p className="  text-grey IBM">iOS·Android</p>
-                </div>
+                </div> */}
             </div>
 
             <div className="w-[18rem] h-[24.25rem] xl:w-[60rem] xl:h-[13.12rem] mt-[5.62rem] mx-auto gap-8 flex flex-col justify-between xl:flex-row">
@@ -68,7 +68,7 @@ function Skills() {
                     <div className="flex flex-col items-center gap-6">
                         <span className="flex justify-center items-center bg-css w-28 h-28 xl:w-36 xl:h-36 rounded-full ">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0,0,256,256" fill="white">
-                            <g fill="white" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" text-anchor="none" mix-blend-mode= "normal"><g transform="scale(5.12,5.12)"><path d="M5,4c-0.55226,0.00006 -0.99994,0.44774 -1,1v40c0.00006,0.55226 0.44774,0.99994 1,1h40c0.55226,-0.00006 0.99994,-0.44774 1,-1v-40c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM6,6h38v38h-38zM15,23v3.44531h5v15.55469h4v-15.55469h5v-3.44531zM36.69141,23.00977c-3.11462,-0.0124 -6.67383,0.93145 -6.67383,5.31445c0,5.73 7.7207,5.73141 7.7207,8.31641c0,0.245 0.10391,2.02539 -2.62109,2.02539c-2.725,0 -4.99609,-1.71289 -4.99609,-1.71289v4.1582c0,0 11.88086,3.84273 11.88086,-4.82227c-0.001,-5.625 -7.79297,-5.34367 -7.79297,-8.13867c0,-1.083 0.76939,-2.0957 2.90039,-2.0957c2.131,0 4.01758,1.25781 4.01758,1.25781l0.14063,-3.70508c0,0 -2.15369,-0.58801 -4.57617,-0.59766z"></path></g></g>
+                            <g fill="white" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none" mix-blend-mode= "normal"><g transform="scale(5.12,5.12)"><path d="M5,4c-0.55226,0.00006 -0.99994,0.44774 -1,1v40c0.00006,0.55226 0.44774,0.99994 1,1h40c0.55226,-0.00006 0.99994,-0.44774 1,-1v-40c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM6,6h38v38h-38zM15,23v3.44531h5v15.55469h4v-15.55469h5v-3.44531zM36.69141,23.00977c-3.11462,-0.0124 -6.67383,0.93145 -6.67383,5.31445c0,5.73 7.7207,5.73141 7.7207,8.31641c0,0.245 0.10391,2.02539 -2.62109,2.02539c-2.725,0 -4.99609,-1.71289 -4.99609,-1.71289v4.1582c0,0 11.88086,3.84273 11.88086,-4.82227c-0.001,-5.625 -7.79297,-5.34367 -7.79297,-8.13867c0,-1.083 0.76939,-2.0957 2.90039,-2.0957c2.131,0 4.01758,1.25781 4.01758,1.25781l0.14063,-3.70508c0,0 -2.15369,-0.58801 -4.57617,-0.59766z"></path></g></g>
                             </svg>
                         </span>
                         <h2 className="H2-M text-css">TS</h2>
