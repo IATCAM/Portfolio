@@ -62,7 +62,7 @@ function Specifications() {
         </div>
 
         <div>
-            <button className="bg-white rounded-4xl py-4 px-8 flex items-center gap-4 Button-U cursor-pointer ubuntu">
+            <button className="bg-white rounded-4xl py-4 px-8 flex items-center gap-4 Button-U cursor-pointer ubuntu cursor-pointer transition-transform duration-300 hover:scale-105">
                 Download CV
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

@@ -23,9 +23,9 @@ function Works() {
                     
                         
                     <div className="absolute top-[50%] left-[50%] flex flex-col gap-1 xl:top-[53%] xl:left-[53%] ">
-                        <a className="flex items-center Media-M Menu-M text-brand1 IBM gap-2" href="#">
+                        <a className="flex items-center Media-M Menu-M text-brand1 IBM gap-2 cursor-pointer transition-transform duration-300 hover:scale-105" href="#">
                             View Website
-                            <span className="">
+                            <span>
                                 <svg className="" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                                     <path fillRule="evenodd" clipRule="evenodd" d="M3.18479 1.92824C2.93543 1.82435 2.64802 1.88122 2.457 2.07223C2.26598 2.26325 2.20912 2.55066 2.31301 2.80002L7.02634 14.1134C7.133 14.3694 7.387 14.5326 7.66418 14.5233C7.94135 14.5139 8.1838 14.334 8.27299 14.0714L9.6016 10.1596L13.1237 13.6817C13.384 13.9421 13.8061 13.9421 14.0665 13.6817C14.3268 13.4214 14.3268 12.9993 14.0665 12.7389L10.5444 9.21683L14.4561 7.88822C14.7187 7.79903 14.8987 7.55658 14.908 7.27941C14.9174 7.00224 14.7541 6.74823 14.4981 6.64158L3.18479 1.92824ZM7.57823 11.971L4.16637 3.78161L12.3558 7.19346L9.10067 8.29906C8.9045 8.36569 8.75045 8.51973 8.68382 8.7159L7.57823 11.971Z" fill="#12F7D6"/>
                                 </svg>

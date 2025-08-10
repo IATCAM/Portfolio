@@ -22,7 +22,7 @@ function Blogs() {
         </div>
 
         <div className="my-16 flex justify-center">
-          <button className="Button-U text-white px-8 py-4 border-2 border-brand1 rounded-4xl">Subscribe My Blogs</button>
+          <button className="Button-U text-white px-8 py-4 border-2 border-brand1 rounded-4xl cursor-pointer transition-color duration-300 hover:bg-brand1 hover:text-bg1">Subscribe My Blogs</button>
         </div>
 
         <hr className="text-white mx-6 xl:mx-32" />

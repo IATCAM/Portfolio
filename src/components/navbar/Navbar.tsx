@@ -87,7 +87,7 @@ function Navbar() {
 
       ),
     },
-  ]; //hey
+  ]; 
 
   const nav = [
     {
@@ -113,8 +113,8 @@ function Navbar() {
             <ul className="flex items-center gap-4 xl:gap-8 text-white">
                 {
                     nav.map((item)=>(
-                        <li key={item.href} className="Media-M Menu-M">
-                            <Link className={pathName === item.href ? "text-brand1" : "text-white"} href={item.href}>{item.title}</Link>
+                        <li key={item.href} className="Media-M Menu-M cursor-pointer">
+                            <Link className={pathName === item.href ? "text-brand1" : "text-white transition-colors duration-300 hover:text-brand1"} href={item.href}>{item.title}</Link>
                         </li>
                     ))
                 }
@@ -140,7 +140,7 @@ function Navbar() {
             <ul className="xl:flex items-center hidden gap-8">
                 {
                     social.map((item)=>(
-                        <li key={item.href}>
+                        <li key={item.href} className="cursor-pointer transition-transform duration-300 hover:scale-125">
                             <Link target="_blank" href={item.href}>{item.icon}</Link>
                         </li>
                     ))

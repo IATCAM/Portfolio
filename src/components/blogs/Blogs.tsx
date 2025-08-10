@@ -44,13 +44,13 @@ function Blogs() {
                 </div>
              </div>
 
-             <hr className="w-auto h-[0.0625rem] text-white mx-4 xl:mx-28 mb-16 mt-8 xl:mt-16 " />
+             <hr className="w-auto h-[0.0625rem] text-white mx-4 xl:mx-28 mb-16 mt-8 xl:mt-16" />
 
              <div className="flex gap-8 items-center justify-center pb-16 xl:mt-16 xl:pb-[6.25rem]">
-                <button className="py-4 px-8 bg-brand1 rounded-4xl Button-U text-bg1">
-                    <Link href="/blogs">View More</Link>
+                <button className="py-4 px-8 bg-brand1 cursor-pointer border-2 border-brand1 rounded-4xl Button-U text-bg1 transition-color duration-300 hover:bg-bg1 hover:text-white hover:border-2 hover:border-brand1">
+                    <Link href="/blogs/1">View More</Link>
                 </button>
-                <button className="py-4 px-8 rounded-4xl border-2 border-brand1 text-white Button-U cursor-pointer" onClick={handleSubscribe}>Subscribe</button>
+                <button className="py-4 px-8 rounded-4xl border-2 border-brand1 text-white Button-U cursor-pointer transition-color duration-300 hover:bg-brand1 hover:text-bg1" onClick={handleSubscribe}>Subscribe</button>
              </div>
     </div>
   )

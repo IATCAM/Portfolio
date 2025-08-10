@@ -26,12 +26,12 @@ function Footer() {
   return (
     <div className="bg-bg2 px-6 pb-8 xl:px-0">
       <hr className=" text-grey" />
-      <div className=" mt-6 px-6 mx-auto xl:mt-4 xl:flex xl:mx-32 xl:justify-between xl:items-center">
+      <div className=" mt-6 px-6 mx-auto xl:mt-4 xl:flex xl:mx-16 xl:justify-between xl:items-center">
 
          <ul className="flex items-center justify-center gap-8">
                 {
                     social.map((item)=>(
-                        <li key={item.href} className="bg-brand2 p-2 rounded-full">
+                        <li key={item.href} className="bg-brand2 p-2 rounded-full cursor-pointer transition-transform duration-300 hover:scale-125">
                             <Link target="_blank" href={item.href}>{item.icon}</Link>
                         </li>
                     ))
