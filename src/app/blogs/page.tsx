@@ -5,6 +5,7 @@ import Blog from "@/components/blog/Blog";
 function Blogs() {
   return (
     <div className="bg-bg1">
+      <hr className="w-auto h-[0.0625rem] text-grey mx-6 xl:mx-32 xl:mb-16" />
       <div className="pt-16">
          <div className="flex flex-col justify-center items-center">
             <h1 className="H1-UU text-brand1">Blogs</h1>

@@ -36,8 +36,9 @@ const article: Iarticle | null = data;
 
 
   return (
-    <div className="bg-bg1 px-6 xl:px-[16rem]">
-      <div className="pt-16  ">
+    <div className="bg-bg1 ">
+      <hr className="w-auto h-[0.0625rem] text-grey mx-6 xl:mx-32 xl:mb-16" />
+      <div className="pt-16 px-6 xl:px-[16rem] ">
         <h1 className="H2-U text-brand1 pb-8 px-2.5">
           {article?.title}
         </h1>
@@ -50,14 +51,14 @@ const article: Iarticle | null = data;
         <hr className="text-grey px-6" />
       </div>
 
-      <div className="mt-8 flex flex-col justify-center items-center">
+      <div className="mt-8 flex flex-col justify-center items-center px-6 xl:px-[16rem]">
         <img className="w-80 h-74" src={article?.image} alt="" />
         <p className="text-white Article-U my-8">
           {article?.content}
         </p>
       </div>
 
-      <div className="xl:pb-8">
+      <div className="xl:pb-8 px-6 xl:px-[16rem]">
         <p className="Label-U-L text-white bg-grey inline-block mr-6 py-1 px-2 rounded-2xl mt-6 xl:mr-6">Web Developer</p>
         <p className="Label-U-L text-white bg-grey inline-block py-1 px-2 rounded-2xl mt-6 xl:mr-6">Web Developer Job</p>
         <p className="Label-U-L text-white bg-grey inline-block py-1 px-2 rounded-2xl mt-6 xl:mr-6">Web Development</p>
