@@ -50,7 +50,7 @@ function Header() {
           </div>
 
           <div className="flex items-center justify-center xl:justify-start mt-4 xl:pl-6">
-            <a className="H2-M text-brand1 mr-4 IBM" href="mailto:sajjadaskaridev@gmail.com">Lets Talk</a>
+            <a className="H2-M text-brand1 mr-4 IBM transition-transform duration-300 hover:scale-105" href="mailto:sajjadaskaridev@gmail.com">Lets Talk</a>
             <span className="bg-grey p-2 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

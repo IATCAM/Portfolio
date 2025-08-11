@@ -74,7 +74,7 @@ const article: Iarticle | null = data;
       </div>
 
       <div className="mt-8 pb-16 flex justify-center">
-          <button className="Button-U text-white px-8 py-4 border-2 border-brand1 rounded-4xl">Subscribe My Blogs</button>
+          <button className="Button-U text-white px-8 py-4 border-2 border-brand1 rounded-4xl cursor-pointer transition-colors duration-300 hover:text-bg1 hover:bg-brand1">Subscribe My Blogs</button>
       </div>
 
     </div>

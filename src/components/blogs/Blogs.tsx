@@ -30,7 +30,7 @@ function Blogs() {
                     <p className="Para-U my-6 text-white">
                         Web development, also known as website development, encompasses a variety of tasks and processes involved in creating websites for the internet…
                     </p>
-                    <p className="Para-U text-brand1 cursor-pointer">Read More  &#10095;&#10095; </p>
+                    <p className="Para-U text-brand1 cursor-pointer transition-transform duration-300 hover:scale-99">Read More  &#10095;&#10095; </p>
                     <hr className="w-[4.87rem] mt-1 text-white" />
                     <div className="xl:flex xl:items-center ">
                         <p className="Label-U-L text-white bg-grey inline-block py-1 px-2 rounded-2xl mt-6 xl:mr-6">Web Developer</p>

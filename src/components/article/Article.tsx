@@ -21,7 +21,7 @@ function Article({title , decription , date , readTime}: Iarticle) {
           <p className="Para-U my-6 text-white">
            {decription}
           </p>
-          <p className="Para-U text-brand1 cursor-pointer">
+          <p className="Para-U text-brand1 cursor-pointer transition-transform duration-300 hover:scale-99">
             Read More &#10095;&#10095;{" "}
           </p>
           <hr className="w-[4.87rem] mt-1 text-white" />
