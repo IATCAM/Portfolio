@@ -4,7 +4,7 @@ import { supabase } from "@/lib/supabaseClient";
 
 
 async function ArticleItems({ params }: { params: Promise<{ id: string }> }) {
-
+  //comment
   const { id } = await params;
 
   // const result = await fetch(`http://localhost:8000/articles/${id}`);
